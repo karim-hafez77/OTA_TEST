@@ -29,7 +29,7 @@ LOGOUT_REDIRECT_URL = 'login'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','coretestsystem.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','yassertest.herokuapp.com']
 
 
 # Application definition

@@ -11,7 +11,7 @@ from django.http import HttpResponse
 import os
 from django.contrib.auth import authenticate, login, logout
 
-# Create your views here.
+# Create your views here.s
 
 
 def login_page(request):
