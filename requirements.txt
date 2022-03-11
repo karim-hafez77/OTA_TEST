@@ -1,4 +1,3 @@
-Python==3.8.10
 asgiref==3.2.10
 Django==2.2.12
 gunicorn==20.0.4
