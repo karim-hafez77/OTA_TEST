@@ -128,11 +128,11 @@ USE_TZ = True
 
 #MEDIA_ROOT = MEDIA_DIR
 #MEDIA_URL = '/media/'
-#STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 STATICFILES_DIR=[
-    os.path.join(BASE_DIR, '/static/')
+    os.path.join(BASE_DIR, 'static')
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'cloud/media')
